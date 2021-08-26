@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/appframework-1.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/swing-worker-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org-netbeans-modules-javawebstart-anttasks.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/beansbinding-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

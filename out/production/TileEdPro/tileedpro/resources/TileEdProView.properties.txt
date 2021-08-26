@@ -1,0 +1,104 @@
+# Resources for the TileEdProView class
+
+# top-level menus
+
+fileMenu.text = File
+helpMenu.text = Help
+
+# @Action resources
+
+showAboutBox.Action.text = &About...
+showAboutBox.Action.shortDescription = Show the application's information dialog
+
+# status bar resources
+
+StatusBar.messageTimeout = 5000
+StatusBar.busyAnimationRate = 30
+StatusBar.idleIcon = busyicons/idle-icon.png
+StatusBar.busyIcons[0]  = busyicons/busy-icon0.png
+StatusBar.busyIcons[1]  = busyicons/busy-icon1.png
+StatusBar.busyIcons[2]  = busyicons/busy-icon2.png
+StatusBar.busyIcons[3]  = busyicons/busy-icon3.png
+StatusBar.busyIcons[4]  = busyicons/busy-icon4.png
+StatusBar.busyIcons[5]  = busyicons/busy-icon5.png
+StatusBar.busyIcons[6]  = busyicons/busy-icon6.png
+StatusBar.busyIcons[7]  = busyicons/busy-icon7.png
+StatusBar.busyIcons[8]  = busyicons/busy-icon8.png
+StatusBar.busyIcons[9]  = busyicons/busy-icon9.png
+StatusBar.busyIcons[10] = busyicons/busy-icon10.png
+StatusBar.busyIcons[11] = busyicons/busy-icon11.png
+StatusBar.busyIcons[12] = busyicons/busy-icon12.png
+StatusBar.busyIcons[13] = busyicons/busy-icon13.png
+StatusBar.busyIcons[14] = busyicons/busy-icon14.png
+jButton1.text=jButton1
+jButton2.text=jButton2
+flipHorz.Action.text=Flip Horz
+flipHorz.Action.shortDescription=
+flipVert.Action.shortDescription=
+flipVert.Action.text=Flip Vert
+jMenuItem1.text=Item
+newTilesetFromDirectory.Action.shortDescription=
+newTilesetFromDirectory.Action.text=Create New Tileset from Image Directory
+newTilemap.Action.shortDescription=
+newTilemap.Action.text=New Tilemap
+saveTilemap.Action.text=Save Tilemap
+saveTilemap.Action.shortDescription=
+openTilemap.Action.text=Open Tilemap
+openTilemap.Action.shortDescription=
+saveTilest.Action.shortDescription=
+saveTilest.Action.text=Save Tileset
+openTileset.Action.text=Open Tileset
+openTileset.Action.shortDescription=
+jButton3.text=jButton3
+deleteTile.Action.shortDescription=
+deleteTile.Action.text=Delete
+saveTilemap.Action.accelerator=meta pressed S
+openTilemap.Action.accelerator=meta pressed O
+newTilemap.Action.accelerator=meta pressed N
+saveTilemapAs.Action.text=Save Tilemap As ...
+saveTilemapAs.Action.accelerator=shift meta pressed S
+saveTilemapAs.Action.shortDescription=
+jButton4.text=+
+jButton5.text=-
+jCheckBox1.text=Show Grid
+zoomIn.Action.shortDescription=
+zoomIn.Action.text=+
+zoomOut.Action.text=-
+zoomOut.Action.shortDescription=
+jCheckBox2.text=Show Coordinates
+jMenuItem8.text=Item
+normalizeCoords.Action.shortDescription=
+normalizeCoords.Action.text=Re-normalize Tile Coordinates
+jLabel3.text=x offset:
+jLabel4.text=y offset:
+jLabel5.text=name:
+jLabel9.text=id:
+jMenu1.text=Advanced
+removeDuplicates.Action.text=Remove Duplicate Tiles
+removeDuplicates.Action.shortDescription=
+exportAsImage.Action.text=Export As Image
+exportAsImage.Action.shortDescription=
+jButton6.text=jButton6
+startBrushMode.Action.shortDescription=
+startBrushMode.Action.text=Select As Brush
+jButton7.text=jButton7
+endBrushMode.Action.shortDescription=
+endBrushMode.Action.text=End Brush Mode
+setBackgroundColor.Action.text=Set Background Color
+setBackgroundColor.Action.shortDescription=
+reloadTilesetImages.Action.text=Reload Images
+reloadTilesetImages.Action.shortDescription=
+jLabel13.text=Tile width:
+jLabel14.text=Tile height:
+jButton8.text=jButton8
+editMasterTile.Action.shortDescription=
+editMasterTile.Action.text=Edit
+jLabel6.text=layer:
+resortByLocation.Action.shortDescription=
+resortByLocation.Action.text=Re-Sort by Location
+jMenu2.text=Tile
+jMenu3.text=Edit
+jMenuItem14.text=Item
+moveTileBackward.Action.shortDescription=
+moveTileBackward.Action.text=Move Tile Backward
+moveTileBackward.Action.accelerator=meta pressed OPEN_BRACKET

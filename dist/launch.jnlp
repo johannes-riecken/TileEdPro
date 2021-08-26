@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="http://projects.joshy.org/demos/tiles/TileEdPro" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Basic Application Example</title>
+        <vendor>Sun Microsystems Inc.</vendor>
+        <homepage href="http://appframework.dev.java.net"/>
+        <description>A simple java desktop application based on Swing Application Framework</description>
+        <description kind="short">Basic Application Example</description>
+
+
+    <offline-allowed/>
+</information>
+<security>
+<all-permissions/>
+</security>
+    <resources>
+<j2se java-vm-args="-Xdock:name=TileEdPro" version="1.5+"/>
+<jar href="TileEdPro.jar" main="true"/>
+
+
+    <jar href="lib/TileLib.jar"/>
+<jar href="lib/appframework-1.0.3.jar"/>
+<jar href="lib/beansbinding-1.2.1.jar"/>
+<jar href="lib/swing-worker-1.1.jar"/>
+</resources>
+    <application-desc main-class="tileedpro.TileEdProApp">
+
+    </application-desc>
+</jnlp>
