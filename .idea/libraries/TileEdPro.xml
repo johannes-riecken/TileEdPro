@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="TileEdPro">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/dist/TileEdPro.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
