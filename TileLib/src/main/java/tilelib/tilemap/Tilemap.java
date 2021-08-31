@@ -402,7 +402,7 @@ public class Tilemap {
         tilemap.setTileset(tileset);
 
         String fixedGrid = root.getAttribute("fixedGrid");
-        if(fixedGrid != null && !fixedGrid.equals("")) {
+        if(fixedGrid != null && !fixedGrid.isEmpty()) {
             tilemap.setFixedGrid(Boolean.parseBoolean(fixedGrid));
             if(tilemap.isFixedGrid()) {
                 tilemap.setFixedGridWidth(Integer.parseInt(root.getAttribute("fixedGridWidth")));

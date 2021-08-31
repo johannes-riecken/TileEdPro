@@ -464,31 +464,31 @@ public class Tileset {
 
     private static void loadAttributes(Element tileElement, Tile tile, Tileset tileset) {
         String xoff = tileElement.getAttribute("xoff");
-        if(xoff != null && !xoff.trim().equals("")) {
+        if(xoff != null && !xoff.trim().isEmpty()) {
             tile.setXoff(Integer.parseInt(xoff));
         } else {
             tile.setXoff(0);
         }
         String yoff = tileElement.getAttribute("yoff");
-        if(yoff != null && !yoff.trim().equals("")) {
+        if(yoff != null && !yoff.trim().isEmpty()) {
             tile.setYoff(Integer.parseInt(yoff));
         } else {
             tile.setYoff(0);
         }
         String tileWidth = tileElement.getAttribute("tilewidth");
-        if(tileWidth != null && !tileWidth.trim().equals("")) {
+        if(tileWidth != null && !tileWidth.trim().isEmpty()) {
             tile.setTileWidth(Integer.parseInt(tileWidth));
         }
         String tileHeight = tileElement.getAttribute("tileheight");
-        if(tileHeight != null && !tileHeight.trim().equals("")) {
+        if(tileHeight != null && !tileHeight.trim().isEmpty()) {
             tile.setTileHeight(Integer.parseInt(tileHeight));
         }
         String blocking = tileElement.getAttribute("blocking");
-        if(blocking != null && !blocking.trim().equals("")) {
+        if(blocking != null && !blocking.trim().isEmpty()) {
             tile.setBlocking(true);
         }
         String layer = tileElement.getAttribute("layer");
-        if(layer == null || layer.trim().equals("")) {
+        if(layer == null || layer.trim().isEmpty()) {
             tile.setLayer(tileset.getLayer("misc"));
         } else {
             tile.setLayer(tileset.getLayer(layer));
