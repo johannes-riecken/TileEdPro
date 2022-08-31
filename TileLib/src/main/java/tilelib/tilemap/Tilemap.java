@@ -157,6 +157,7 @@ public class Tilemap {
         List<Layer> layers = this.tileset.getLayers();
         
         Collections.sort(layers, new Comparator<Layer>() {
+            @Override
             public int compare(Layer o1, Layer o2) {
                 if(o1.getOrder() == o2.getOrder()) {
                     return 0;
