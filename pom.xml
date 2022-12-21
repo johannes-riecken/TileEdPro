@@ -7,14 +7,8 @@
   <packaging>pom</packaging>
   <modules>
     <module>TileLib</module>
+    <module>TileApp</module>
   </modules>
-  <repositories>
-    <repository>
-      <id>anahata</id>
-      <name>anahata</name>
-      <url>http://repo.anahata.uno/artifactory/anahata-public/</url>
-    </repository>
-  </repositories>
   <dependencies>
     <dependency>
       <groupId>org.jdesktop.bsaf</groupId>
@@ -22,11 +16,6 @@
       <version>1.9.2</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/javax.jnlp/jnlp -->
-    <dependency>
-      <groupId>javax.jnlp</groupId>
-      <artifactId>jnlp</artifactId>
-      <version>7.0</version>
-    </dependency>
   </dependencies>
   <build>
     <plugins>

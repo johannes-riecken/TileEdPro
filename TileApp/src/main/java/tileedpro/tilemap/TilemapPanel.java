@@ -25,7 +25,7 @@ import javax.swing.Scrollable;
 import javax.swing.TransferHandler;
 import javax.swing.event.MouseInputAdapter;
 import javax.swing.event.MouseInputListener;
-import tileedpro.u;
+
 import tilelib.tilemap.Tilemap;
 import tilelib.tileset.Tileset;
 import tilelib.tilemap.Tilemap.Tile;

@@ -11,7 +11,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import org.jdesktop.application.Application;
-import org.jdesktop.application.Application.ExitListener;
 import org.jdesktop.application.LocalStorage;
 import org.jdesktop.application.SingleFrameApplication;
 import tilelib.tilemap.Tilemap;
